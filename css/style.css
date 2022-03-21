@@ -35,6 +35,10 @@ body{
     margin: 0px auto;
 }
 
+img{
+    display: block;
+}
+
 h5{
     font-weight: 400;
 }
@@ -80,7 +84,6 @@ h3{
 }
 
 .pic-in-col > img{
-    display: block;
     width: 100%;
 }
 
@@ -139,3 +142,14 @@ h3{
     Animation 
 ----------------*/
 
+.fade{
+    display: none;
+}
+
+.pic-in-col:hover img{
+    display: none;
+}
+
+.pic-in-col:hover .fade{
+    display: block;
+}
