@@ -32,7 +32,6 @@ body{
     margin: 0px auto;
 }
 
-
 /* Structure of a row that repeats*/
 .row{
     margin: 10px 0px 10px 0px;
@@ -46,10 +45,13 @@ body{
 
 
 .col{
-    position: relative;
     width: calc(100%/3 - 8px);
     float: left;
     margin: 10px 4px 10px 4px;
+}
+
+.pic-in-col{
+    position: relative;
 }
 
 .pic{
@@ -89,4 +91,8 @@ body{
 
 .tag-eco{
     background-color: #00875a;
+}
+
+.info{
+    position: static;
 }
