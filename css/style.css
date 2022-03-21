@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /*-------------
     Debug Zone
 -------------*/
@@ -62,4 +66,27 @@
     position: absolute;
     top: 20px;
     left: calc(100% - 50px);
+}
+
+.label{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+
+}
+
+.tag{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px;
+}
+
+.tag-discount{
+    background-color: #eb0037;
+}
+
+.tag-eco{
+    background-color: #00875a;
 }
