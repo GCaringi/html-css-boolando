@@ -42,6 +42,7 @@
 
 
 .col{
+    position: relative;
     width: calc(100%/3 - 8px);
     float: left;
     margin: 10px 4px 10px 4px;
@@ -49,4 +50,16 @@
 
 .pic{
     width: 100%;
+}
+
+.like{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 20px;
+    left: calc(100% - 50px);
 }
