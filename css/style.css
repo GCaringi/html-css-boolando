@@ -1,0 +1,42 @@
+/* Reset */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*-------------
+    Debug Zone
+-------------*/
+.debug .container{
+    background-color: gray;
+}
+
+.debug .col{
+    background-color: aqua;
+    min-height: 500px;
+}
+
+
+.container{
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.row{
+    margin: 10px 0px 10px 0px;
+}
+
+.row.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.col{
+    width: calc(100%/3 - 8px);
+    float: left;
+    margin: 10px 4px 10px 4px;
+}
