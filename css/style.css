@@ -12,7 +12,7 @@ body{
 
 /*-------------
     Debug Zone
--------------*/
+--------------*/
 .debug .container{
     background-color: gray;
 }
@@ -24,15 +24,33 @@ body{
 
 /*-------------
     /Debug Zone
--------------*/
+--------------*/
 
-/* Common proprieties */
+/*---------------------- 
+    Common proprieties 
+-----------------------*/
+
 .container{
     max-width: 1280px;
     margin: 0px auto;
 }
 
-/* Structure of a row that repeats*/
+h5{
+    font-weight: 400;
+}
+
+h3{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*---------------------- 
+    /Common proprieties 
+-----------------------*/
+
+/*------------------------------------
+     Structure of a row that repeats
+-------------------------------------*/
 .row{
     margin: 10px 0px 10px 0px;
 }
@@ -43,18 +61,26 @@ body{
     clear: both;
 }
 
-
 .col{
     width: calc(100%/3 - 8px);
     float: left;
     margin: 10px 4px 10px 4px;
 }
 
+/*------------------------------------
+     Structure of a row that repeats
+-------------------------------------*/
+
+/*------------------------------------
+     Structure of a box that repeats
+-------------------------------------*/
+
 .pic-in-col{
     position: relative;
 }
 
-.pic{
+.pic-in-col > img{
+    display: block;
     width: 100%;
 }
 
@@ -93,6 +119,23 @@ body{
     background-color: #00875a;
 }
 
-.info{
-    position: static;
+.price{
+    color: red;
+    font-weight: bold;
 }
+.price > span{
+    font-weight: 400;
+    text-decoration: line-through;
+    color: black;
+    
+}
+
+/*------------------------------------
+    /Structure of a box that repeats
+-------------------------------------*/
+
+
+/*-------------- 
+    Animation 
+----------------*/
+
