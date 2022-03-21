@@ -153,3 +153,9 @@ h3{
 .pic-in-col:hover .fade{
     display: block;
 }
+
+.pic-in-col:hover .like{
+    color: red;
+}
+
+
