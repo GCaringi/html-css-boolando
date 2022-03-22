@@ -55,8 +55,8 @@ h3{
 /*------------------------------------
      Structure of a row that repeats
 -------------------------------------*/
-.row{
-    margin: 10px 0px 10px 0px;
+.row:not(last-child){
+    margin-bottom: 30px;
 }
 
 .row.clearfix::after{
@@ -120,6 +120,10 @@ h3{
 
 .tag-eco{
     background-color: #00875a;
+}
+
+.info{
+    margin-top: 10px;
 }
 
 .price{
